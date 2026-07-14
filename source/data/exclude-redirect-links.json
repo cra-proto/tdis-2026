@@ -1,0 +1,14 @@
+[
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/auto-fill-return-express-noa.html",
+    "destination": "/tdis-2026/en/revenue-agency/services/e-services/auto-fill-return-express-noa.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/cra-login.html",
+    "destination": "/tdis-2026/en/revenue-agency/services/e-services/cra-login-services/cra-login.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/e-services/cra-login-services/identity-validation-service.html",
+    "destination": "/tdis-2026/en/revenue-agency/services/e-services/cra-login-services/identity-validation-service.html"
+  }
+]
