@@ -26,21 +26,56 @@ notedlinks:
     link: "https://cra-proto.github.io/tdis-2026/index.html"
 ---
 
-
-<ul class="list-unstyled row text-center mrgn-tp-lg">
+<!--VERSION FOR regular sign-in-->
+<div data-wb-urlmapping='{
+		"sign-in":
+  { "action": "addClass",
+  "source": "#id",
+  "class": "wb-inv" 
+  } 
+  }'
+  >
+  <ul class="list-unstyled row text-center mrgn-tp-lg">
     <li class="col-sm-5 col-md-4 col-sm-offset-1">
         <a class="center-block" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=madi&amp;idp=idp4"
             ><img class="center-block img-responsive img-thumbnail" src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/ablogo.png" alt="" />
-            <div class="btn btn-lg h3 mrgn-tp-0 mrgn-bttm-md"><strong>Alberta.ca Account</strong></div>
+            <div class="btn btn-lg h3 mrgn-tp-0 mrgn-bttm-md"><strong>Alberta.ca Account - default</strong></div>
         </a>
     </li>
     <li class="col-sm-5 col-md-4 col-md-offset-2">
         <a class="center-block" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=bcsc&amp;idp=idp3"
             ><img class="center-block img-responsive img-thumbnail" src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/bc-services-card.png" alt="" />
-            <div class="btn btn-lg h3 mrgn-tp-0 mrgn-bttm-md"><strong>BC Services Card</strong></div>
+            <div class="btn btn-lg h3 mrgn-tp-0 mrgn-bttm-md"><strong>BC Services Card - default</strong></div>
         </a>
     </li>
 </ul>
+</div>
+
+<!--VERSION FOR IVS-->
+<div data-wb-urlmapping='{
+		"ivs":
+  { "action": "addClass",
+  "source": "#id",
+  "class": "wb-inv" 
+  } 
+  }'
+  >
+<ul class="list-unstyled row text-center mrgn-tp-lg">
+    <li class="col-sm-5 col-md-4 col-sm-offset-1">
+        <a class="center-block" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=madi&amp;idp=idp4"
+            ><img class="center-block img-responsive img-thumbnail" src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/ablogo.png" alt="" />
+            <div class="btn btn-lg h3 mrgn-tp-0 mrgn-bttm-md"><strong>Alberta.ca Account - IVS</strong></div>
+        </a>
+    </li>
+    <li class="col-sm-5 col-md-4 col-md-offset-2">
+        <a class="center-block" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=bcsc&amp;idp=idp3"
+            ><img class="center-block img-responsive img-thumbnail" src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/bc-services-card.png" alt="" />
+            <div class="btn btn-lg h3 mrgn-tp-0 mrgn-bttm-md"><strong>BC Services Card - IVS</strong></div>
+        </a>
+    </li>
+</ul>
+</div>
+
 <p>This service is <strong>only </strong>for Alberta and British Columbia at this time.</p>
 
 <script>_satellite.pageBottom();</script>
