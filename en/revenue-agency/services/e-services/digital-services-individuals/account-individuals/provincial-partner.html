@@ -25,16 +25,20 @@ notedlinks:
   - title: "Repository sitemap"
     link: "https://cra-proto.github.io/tdis-2026/index.html"
 ---
-
-<!--VERSION FOR regular sign-in-->
 <div data-wb-urlmapping='{
 		"ivs":
   { "action": "addClass",
-  "source": "#ivs","#amr","#tiws"
+  "source": "#sign-in"
+  "class": "wb-inv" 
+  } 
+	{ "action": "removeClass",
+  "source": "#ivs"
   "class": "wb-inv" 
   } 
   }'
   >
+<!--VERSION FOR regular sign-in-->
+<div id="sign-in">
   <ul class="list-unstyled row text-center mrgn-tp-lg">
     <li class="col-sm-5 col-md-4 col-sm-offset-1">
         <a class="center-block" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=madi&amp;idp=idp4"
@@ -52,15 +56,8 @@ notedlinks:
 </div>
 
 <!--VERSION FOR IVS-->
-<div data-wb-urlmapping='{
-		"sign-in":
-  { "action": "removeClass",
-  "source": "#ivs",
-  "class": "wb-inv" 
-  } 
-  }'
-  >
-<ul class="list-unstyled row text-center mrgn-tp-lg wb-inv">
+<div id="ivs" class="wb-inv">
+<ul class="list-unstyled row text-center mrgn-tp-lg">
     <li class="col-sm-5 col-md-4 col-sm-offset-1">
         <a class="center-block" href="https://ams-sga.cra-arc.gc.ca/gol-ged/awsc/amss/entry?target=login&amp;lang=en&amp;program=madi&amp;idp=idp4"
             ><img class="center-block img-responsive img-thumbnail" src="https://www.canada.ca/content/dam/cra-arc/serv-info/eservices/ablogo.png" alt="" />
